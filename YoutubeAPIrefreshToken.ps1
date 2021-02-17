@@ -1,5 +1,5 @@
-﻿$clientID = “” #get from youtube api dev console
-$clientSecret = “” #get from youtube api dev console
+﻿$clientID = “”
+$clientSecret = “”
 $redirectUrl = “http://localhost/oauth2callback”
 $scope = “https://www.googleapis.com/auth/youtube.force-ssl”
 
@@ -10,7 +10,7 @@ $authUrl | clip
 # Copy the generated url into your browser
 PAUSE
 
-$responseCode = “” #put the code from the url into this field before continueing
+$responseCode = “” #paste code here before continueing
 
 $requestUri = “https://www.googleapis.com/oauth2/v3/token”
 
